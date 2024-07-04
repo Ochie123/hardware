@@ -1,0 +1,1716 @@
+[
+    {
+        "url": "http://127.0.0.1:8000/api/products/481/",
+        "id": 481,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/67/",
+                "title": "ggh"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/tags/83/",
+                "title": "hgg"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/633/",
+                "id": 633,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-1_gSeieS6.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-1_W98C7Ql.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/481/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/634/",
+                "id": 634,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-2_BUhNmKQ.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-2_fu6KfWW.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/481/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 87,
+        "toprated": false,
+        "bestseller": false,
+        "title": "NewVariants",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(79, 193, 255);\">NewVariants</span></p>",
+        "price": "879.00",
+        "is_active": false,
+        "publish": "2024-06-24T04:34:36.626586+03:00",
+        "created": "2024-06-24T04:34:36.627365+03:00",
+        "updated": "2024-06-24T04:34:36.627383+03:00",
+        "status": "DF",
+        "download_url": "Gcdo26NPfaglcvFgIfqS",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/479/",
+        "id": 479,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/82/",
+                "title": "hrlp"
+            }
+        ],
+        "variants": [
+            {
+                "id": 242,
+                "option_values": [
+                    {
+                        "value": "65",
+                        "option": 2
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 242,
+                        "image": 629
+                    }
+                ],
+                "product": 479,
+                "price": "87.00",
+                "quantity": 28,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/628/",
+                "id": 628,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/Explore_By-Fitness.png_QkXSpon.webp",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Explore_By-Fitness.png_01XU4up.webp",
+                "product": "http://127.0.0.1:8000/api/products/479/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/629/",
+                "id": 629,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/Explore_By-Product_Reviews.png_chnoTVo.webp",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Explore_By-Product_Reviews.png_9Jq5sXi.webp",
+                "product": "http://127.0.0.1:8000/api/products/479/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/630/",
+                "id": 630,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/Explore_By-Sleep.png_ZsChM56.webp",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Explore_By-Sleep.png_3Hl3YGL.webp",
+                "product": "http://127.0.0.1:8000/api/products/479/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "Latst tetst",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">rest_framework</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span></p><p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">django</span>.<span style=\"color: rgb(78, 201, 176);\">urls</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(220, 220, 170);\">resolve</span></p><p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">products</span>.<span style=\"color: rgb(78, 201, 176);\">models</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(78, 201, 176);\">Product</span>, <span style=\"color: rgb(78, 201, 176);\">Tag</span>, <span style=\"color: rgb(78, 201, 176);\">ProductVariant</span>, <span style=\"color: rgb(78, 201, 176);\">ProductVariantOption</span>, <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValue</span>, <span style=\"color: rgb(78, 201, 176);\">ProductImage</span>, <span style=\"color: rgb(78, 201, 176);\">VariantImageMapping</span></p><p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">categories</span>.<span style=\"color: rgb(78, 201, 176);\">models</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(78, 201, 176);\">Category</span></p><p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">shops</span>.<span style=\"color: rgb(78, 201, 176);\">models</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(78, 201, 176);\">Shop</span>, <span style=\"color: rgb(78, 201, 176);\">DeliveryZone</span>, <span style=\"color: rgb(78, 201, 176);\">Country</span></p><p><span style=\"color: rgb(197, 134, 192);\">from</span> <span style=\"color: rgb(78, 201, 176);\">django</span>.<span style=\"color: rgb(78, 201, 176);\">contrib</span>.<span style=\"color: rgb(78, 201, 176);\">auth</span> <span style=\"color: rgb(197, 134, 192);\">import</span> <span style=\"color: rgb(220, 220, 170);\">get_user_model</span></p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">UserSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(220, 220, 170);\">get_user_model</span>()</p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> [<span style=\"color: rgb(206, 145, 120);\">'id'</span>, <span style=\"color: rgb(206, 145, 120);\">'username'</span>, <span style=\"color: rgb(206, 145, 120);\">'email'</span>, <span style=\"color: rgb(206, 145, 120);\">'mobile'</span>, <span style=\"color: rgb(206, 145, 120);\">'user_bio'</span>, <span style=\"color: rgb(206, 145, 120);\">'is_active'</span>]</p><p>        <span style=\"color: rgb(156, 220, 254);\">read_only_fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> [<span style=\"color: rgb(206, 145, 120);\">'is_active'</span>]</p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'user-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">TagSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">Tag</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'tag-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">CategorySerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">Category</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'category-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">CountrySerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">Country</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'country-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">DeliveryZoneSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(156, 220, 254);\">countries</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">CountrySerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    </p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">DeliveryZone</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'deliveryzone-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ShopSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">Shop</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ProductImageSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(156, 220, 254);\">id</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ReadOnlyField</span>()</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductImage</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(206, 145, 120);\">'__all__'</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">extra_kwargs</span> <span style=\"color: rgb(212, 212, 212);\">=</span> {</p><p>            <span style=\"color: rgb(206, 145, 120);\">'url'</span>: {<span style=\"color: rgb(206, 145, 120);\">'view_name'</span>: <span style=\"color: rgb(206, 145, 120);\">'productimage-detail'</span>, <span style=\"color: rgb(206, 145, 120);\">'lookup_field'</span>: <span style=\"color: rgb(206, 145, 120);\">'pk'</span>}</p><p>        }</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValueSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValue</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> (<span style=\"color: rgb(206, 145, 120);\">'value'</span>, <span style=\"color: rgb(206, 145, 120);\">'option'</span>)</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(156, 220, 254);\">id</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">IntegerField</span>(<span style=\"color: rgb(156, 220, 254);\">source</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">'pk'</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)  <span style=\"color: rgb(106, 153, 85);\"># Define the id field explicitly</span></p><p>    <span style=\"color: rgb(156, 220, 254);\">values</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValueSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p><br></p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOption</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> (<span style=\"color: rgb(206, 145, 120);\">'id'</span>, <span style=\"color: rgb(206, 145, 120);\">'name'</span>, <span style=\"color: rgb(206, 145, 120);\">'values'</span>)</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">VariantImageMappingSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">VariantImageMapping</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> (<span style=\"color: rgb(206, 145, 120);\">'variant'</span>, <span style=\"color: rgb(206, 145, 120);\">'image'</span>)</p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ModelSerializer</span>):</p><p>    <span style=\"color: rgb(156, 220, 254);\">option_values</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValueSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">image_mappings</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">VariantImageMappingSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">product</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">PrimaryKeyRelatedField</span>(<span style=\"color: rgb(156, 220, 254);\">queryset</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(78, 201, 176);\">Product</span>.<span style=\"color: rgb(156, 220, 254);\">objects</span>.<span style=\"color: rgb(220, 220, 170);\">all</span>())</p><p><br></p><p>    <span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">Meta</span>:</p><p>        <span style=\"color: rgb(156, 220, 254);\">model</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariant</span></p><p>        <span style=\"color: rgb(156, 220, 254);\">fields</span> <span style=\"color: rgb(212, 212, 212);\">=</span> (<span style=\"color: rgb(206, 145, 120);\">'id'</span>, <span style=\"color: rgb(206, 145, 120);\">'option_values'</span>, <span style=\"color: rgb(206, 145, 120);\">'image_mappings'</span>, <span style=\"color: rgb(206, 145, 120);\">'product'</span>, <span style=\"color: rgb(206, 145, 120);\">'price'</span>, <span style=\"color: rgb(206, 145, 120);\">'quantity'</span>, <span style=\"color: rgb(206, 145, 120);\">'is_active'</span>)</p><p><br></p><p>    <span style=\"color: rgb(86, 156, 214);\">def</span> <span style=\"color: rgb(220, 220, 170);\">create</span>(<span style=\"color: rgb(156, 220, 254);\">self</span>, <span style=\"color: rgb(156, 220, 254);\">validated_data</span>):</p><p>        <span style=\"color: rgb(156, 220, 254);\">option_values_data</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(156, 220, 254);\">validated_data</span>.pop(<span style=\"color: rgb(206, 145, 120);\">'option_values'</span>)</p><p>        <span style=\"color: rgb(156, 220, 254);\">variant</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariant</span>.<span style=\"color: rgb(156, 220, 254);\">objects</span>.<span style=\"color: rgb(220, 220, 170);\">create</span>(<span style=\"color: rgb(212, 212, 212);\">**</span><span style=\"color: rgb(156, 220, 254);\">validated_data</span>)</p><p><br></p><p>        <span style=\"color: rgb(156, 220, 254);\">option_values</span> <span style=\"color: rgb(212, 212, 212);\">=</span> []</p><p>        <span style=\"color: rgb(197, 134, 192);\">for</span> <span style=\"color: rgb(156, 220, 254);\">ov_data</span> <span style=\"color: rgb(197, 134, 192);\">in</span> <span style=\"color: rgb(156, 220, 254);\">option_values_data</span>:</p><p>            <span style=\"color: rgb(156, 220, 254);\">option</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOption</span>.<span style=\"color: rgb(156, 220, 254);\">objects</span>.<span style=\"color: rgb(220, 220, 170);\">get</span>(<span style=\"color: rgb(156, 220, 254);\">pk</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(156, 220, 254);\">ov_data</span>[<span style=\"color: rgb(206, 145, 120);\">'option'</span>].pk)</p><p>            <span style=\"color: rgb(156, 220, 254);\">option_value</span>, <span style=\"color: rgb(156, 220, 254);\">_</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantOptionValue</span>.<span style=\"color: rgb(156, 220, 254);\">objects</span>.<span style=\"color: rgb(220, 220, 170);\">get_or_create</span>(<span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(156, 220, 254);\">ov_data</span>[<span style=\"color: rgb(206, 145, 120);\">'value'</span>], <span style=\"color: rgb(156, 220, 254);\">option</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(156, 220, 254);\">option</span>)</p><p>            <span style=\"color: rgb(156, 220, 254);\">option_values</span>.<span style=\"color: rgb(220, 220, 170);\">append</span>(<span style=\"color: rgb(156, 220, 254);\">option_value</span>)</p><p><br></p><p>        <span style=\"color: rgb(156, 220, 254);\">variant</span>.<span style=\"color: rgb(156, 220, 254);\">option_values</span>.<span style=\"color: rgb(220, 220, 170);\">set</span>(<span style=\"color: rgb(156, 220, 254);\">option_values</span>)</p><p>        <span style=\"color: rgb(197, 134, 192);\">return</span> <span style=\"color: rgb(156, 220, 254);\">variant</span></p><p><br></p><p><br></p><p><span style=\"color: rgb(86, 156, 214);\">class</span> <span style=\"color: rgb(78, 201, 176);\">ProductSerializer</span>(<span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HyperlinkedModelSerializer</span>):</p><p>    <span style=\"color: rgb(156, 220, 254);\">id</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ReadOnlyField</span>()</p><p>    <span style=\"color: rgb(156, 220, 254);\">tags</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">TagSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">variants</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductVariantSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">images</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">ProductImageSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">many</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>, <span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">delivery_zone</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">DeliveryZoneSerializer</span>(<span style=\"color: rgb(156, 220, 254);\">read_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span>)</p><p>    <span style=\"color: rgb(156, 220, 254);\">user</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">HiddenField</span>(<span style=\"color: rgb(156, 220, 254);\">default</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">CurrentUserDefault</span>())</p><p>    <span style=\"color: rgb(156, 220, 254);\">uploaded_images</span> <span style=\"color: rgb(212, 212, 212);\">=</span> <span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ListField</span>(</p><p>        <span style=\"color: rgb(156, 220, 254);\">child</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(78, 201, 176);\">serializers</span>.<span style=\"color: rgb(78, 201, 176);\">ImageField</span>(<span style=\"color: rgb(156, 220, 254);\">allow_empty_file</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">False</span>, <span style=\"color: rgb(156, 220, 254);\">use_url</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">False</span>),</p><p>        <span style=\"color: rgb(156, 220, 254);\">write_only</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">True</span></p>",
+        "price": "78.00",
+        "is_active": false,
+        "publish": "2024-06-24T04:12:39.720201+03:00",
+        "created": "2024-06-24T04:12:39.720654+03:00",
+        "updated": "2024-06-24T04:12:39.720663+03:00",
+        "status": "DF",
+        "download_url": "q5av4cTcsDUFS81vQIwM",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/2/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/477/",
+        "id": 477,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/81/",
+                "title": "hjhh"
+            }
+        ],
+        "variants": [
+            {
+                "id": 238,
+                "option_values": [
+                    {
+                        "value": "grey",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 238,
+                        "image": 622
+                    }
+                ],
+                "product": 477,
+                "price": "876.00",
+                "quantity": 54,
+                "is_active": false
+            },
+            {
+                "id": 239,
+                "option_values": [
+                    {
+                        "value": "yellow",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 239,
+                        "image": 624
+                    }
+                ],
+                "product": 477,
+                "price": "87.00",
+                "quantity": 43,
+                "is_active": false
+            },
+            {
+                "id": 240,
+                "option_values": [
+                    {
+                        "value": "cfcf",
+                        "option": 26
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 240,
+                        "image": 623
+                    }
+                ],
+                "product": 477,
+                "price": "666.00",
+                "quantity": 5544,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/621/",
+                "id": 621,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerr_HbOGG3c.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerr_4EirmiG.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/477/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/622/",
+                "id": 622,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerc_h17PLsk.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerc_qsJjoOx.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/477/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/623/",
+                "id": 623,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerrr_qGvj8sD.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerrr_BOeHZBE.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/477/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/624/",
+                "id": 624,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerrrr_0b4UvBS.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerrrr_KF919uL.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/477/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 87,
+        "toprated": false,
+        "bestseller": false,
+        "title": "variant final test",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">Add Custom Variant</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">Button</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">Dialog</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">open</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(79, 193, 255);\">showCustomVariantDialog</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">onClose</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">() </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(220, 220, 170);\">setShowCustomVariantDialog</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(86, 156, 214);\">false</span><span style=\"color: rgb(212, 212, 212);\">)</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">  </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">DialogTitle</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">Add Custom Variant</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">DialogTitle</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">  </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">DialogContent</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">    </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">Box</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">paddingBottom</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(181, 206, 168);\">2</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">TextField</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">fullWidth</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">label</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"Custom Option Title\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">name</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"customOptionTitle\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">onChange</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">e</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(220, 220, 170);\">setCustomOptionTitle</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">e</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">target</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">)</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(79, 193, 255);\">customOptionTitle</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(156, 220, 254);\">variant</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"outlined\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">    </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">Box</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">    </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">TextField</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">fullWidth</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">label</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"Custom Option Values\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">name</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"customOptionValues\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">onChange</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">e</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(220, 220, 170);\">setCustomOptionValues</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">e</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">target</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">)</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(79, 193, 255);\">customOptionValues</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(156, 220, 254);\">variant</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"outlined\"</span></p><p><span style=\"color: rgb(212, 212, 212);\">    </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">  </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">DialogContent</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p>",
+        "price": "743.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:31:12.756430+03:00",
+        "created": "2024-06-24T03:31:12.756802+03:00",
+        "updated": "2024-06-24T03:31:12.756809+03:00",
+        "status": "DF",
+        "download_url": "RYWolMhcnbomDOOXJvFw",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/2/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/475/",
+        "id": 475,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 233,
+                "option_values": [],
+                "image_mappings": [],
+                "product": 475,
+                "price": "765.00",
+                "quantity": 5,
+                "is_active": false
+            },
+            {
+                "id": 234,
+                "option_values": [
+                    {
+                        "value": "red",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 234,
+                        "image": 614
+                    }
+                ],
+                "product": 475,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            },
+            {
+                "id": 235,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 4
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 235,
+                        "image": 616
+                    }
+                ],
+                "product": 475,
+                "price": "45.00",
+                "quantity": 47,
+                "is_active": false
+            },
+            {
+                "id": 236,
+                "option_values": [
+                    {
+                        "value": "white",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 236,
+                        "image": 615
+                    }
+                ],
+                "product": 475,
+                "price": "76.00",
+                "quantity": 34,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/613/",
+                "id": 613,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_4w1BtiQ.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_cVWQ579.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/475/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/614/",
+                "id": 614,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_bc6IZrx.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_fQFDfmM.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/475/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/615/",
+                "id": 615,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_ivUhQW6.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_I3VH37f.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/475/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/616/",
+                "id": 616,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_0J4aI3j.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_iVZ0poU.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/475/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image multi 5",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:26:39.390785+03:00",
+        "created": "2024-06-24T03:26:39.391689+03:00",
+        "updated": "2024-06-24T03:26:39.391702+03:00",
+        "status": "DF",
+        "download_url": "bgs67kyYaLlq0gPYq9IA",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/472/",
+        "id": 472,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 221,
+                "option_values": [
+                    {
+                        "value": "white",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 221,
+                        "image": 603
+                    }
+                ],
+                "product": 472,
+                "price": "76.00",
+                "quantity": 34,
+                "is_active": false
+            },
+            {
+                "id": 222,
+                "option_values": [
+                    {
+                        "value": "red",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 222,
+                        "image": 603
+                    }
+                ],
+                "product": 472,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            },
+            {
+                "id": 223,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 223,
+                        "image": 604
+                    }
+                ],
+                "product": 472,
+                "price": "45.00",
+                "quantity": 47,
+                "is_active": false
+            },
+            {
+                "id": 224,
+                "option_values": [],
+                "image_mappings": [],
+                "product": 472,
+                "price": "765.00",
+                "quantity": 5,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/601/",
+                "id": 601,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_6ahOIEh.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_zcL8Hnv.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/472/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/602/",
+                "id": 602,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_gPSLzUX.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_ZgEv3XM.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/472/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/603/",
+                "id": 603,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_TNQrKmo.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_GYIjdt4.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/472/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/604/",
+                "id": 604,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_1RKs0Mp.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_MmfEDeh.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/472/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image multi 2",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:24:05.365590+03:00",
+        "created": "2024-06-24T03:24:05.366675+03:00",
+        "updated": "2024-06-24T03:24:05.366692+03:00",
+        "status": "DF",
+        "download_url": "oVugcA05l7HjUkAMVhtr",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/471/",
+        "id": 471,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 218,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 218,
+                        "image": 600
+                    }
+                ],
+                "product": 471,
+                "price": "45.00",
+                "quantity": 47,
+                "is_active": false
+            },
+            {
+                "id": 217,
+                "option_values": [
+                    {
+                        "value": "white",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 217,
+                        "image": 599
+                    }
+                ],
+                "product": 471,
+                "price": "76.00",
+                "quantity": 34,
+                "is_active": false
+            },
+            {
+                "id": 219,
+                "option_values": [],
+                "image_mappings": [],
+                "product": 471,
+                "price": "0.00",
+                "quantity": 0,
+                "is_active": false
+            },
+            {
+                "id": 220,
+                "option_values": [
+                    {
+                        "value": "red",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 220,
+                        "image": 599
+                    }
+                ],
+                "product": 471,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/597/",
+                "id": 597,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_GSV3I0r.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_boXwP0v.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/471/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/598/",
+                "id": 598,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_2YubYIX.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_WZXqV8x.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/471/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/599/",
+                "id": 599,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_q0FOzEF.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_CMFnQd3.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/471/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/600/",
+                "id": 600,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_2E3g7oy.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_SRxfyii.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/471/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image multi 2",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:23:06.768060+03:00",
+        "created": "2024-06-24T03:23:06.768609+03:00",
+        "updated": "2024-06-24T03:23:06.768622+03:00",
+        "status": "DF",
+        "download_url": "1qttl0XmPEWM7sGgQR1f",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/469/",
+        "id": 469,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 210,
+                "option_values": [
+                    {
+                        "value": "red",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 210,
+                        "image": 591
+                    }
+                ],
+                "product": 469,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            },
+            {
+                "id": 211,
+                "option_values": [
+                    {
+                        "value": "white",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 211,
+                        "image": 591
+                    }
+                ],
+                "product": 469,
+                "price": "76.00",
+                "quantity": 34,
+                "is_active": false
+            },
+            {
+                "id": 212,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 212,
+                        "image": 592
+                    }
+                ],
+                "product": 469,
+                "price": "45.00",
+                "quantity": 47,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/589/",
+                "id": 589,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_S95IH9w.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_7FRyVxP.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/469/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/590/",
+                "id": 590,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_0OtWoYG.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_IeZ7hey.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/469/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/591/",
+                "id": 591,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_n6dLSI4.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_XCc7zWo.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/469/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/592/",
+                "id": 592,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_EQTRfa5.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_y0vcdMH.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/469/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image multi",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:20:10.369731+03:00",
+        "created": "2024-06-24T03:20:10.370402+03:00",
+        "updated": "2024-06-24T03:20:10.370419+03:00",
+        "status": "DF",
+        "download_url": "u6aHkfkmdQ7yboS7wyvY",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/468/",
+        "id": 468,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 209,
+                "option_values": [
+                    {
+                        "value": "red",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 209,
+                        "image": 587
+                    }
+                ],
+                "product": 468,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/585/",
+                "id": 585,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_kWUbR9a.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_5bR7hrh.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/468/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/586/",
+                "id": 586,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_RF1QXJP.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_KhoVF0J.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/468/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/587/",
+                "id": 587,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_234nzkf.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_59rC4TX.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/468/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/588/",
+                "id": 588,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_7mmCukF.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_V7lvv37.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/468/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:17:35.055558+03:00",
+        "created": "2024-06-24T03:17:35.055931+03:00",
+        "updated": "2024-06-24T03:17:35.055938+03:00",
+        "status": "DF",
+        "download_url": "Pg8iQWbOFaEPbhkjsCWl",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/467/",
+        "id": 467,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 208,
+                "option_values": [
+                    {
+                        "value": "black",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 208,
+                        "image": 582
+                    }
+                ],
+                "product": 467,
+                "price": "99.00",
+                "quantity": 663,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/581/",
+                "id": 581,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_EvgrXyh.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_LGZpmjp.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/467/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/582/",
+                "id": 582,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_ESDTxpV.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_OFTnAsM.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/467/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/583/",
+                "id": 583,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_0BCajOA.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_397PFIy.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/467/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/584/",
+                "id": 584,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_iEX8iCQ.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_yD4JrZg.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/467/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test variant image",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:16:13.746191+03:00",
+        "created": "2024-06-24T03:16:13.746996+03:00",
+        "updated": "2024-06-24T03:16:13.747007+03:00",
+        "status": "DF",
+        "download_url": "DVdjlePMlasCv0xsBlMr",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/466/",
+        "id": 466,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 207,
+                "option_values": [
+                    {
+                        "value": "jjjj",
+                        "option": 3
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 207,
+                        "image": 579
+                    }
+                ],
+                "product": 466,
+                "price": "999.00",
+                "quantity": 665,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/578/",
+                "id": 578,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_jPP303C.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_qQedutf.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/466/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/579/",
+                "id": 579,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_45x8Omy.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_wg8Z80R.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/466/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/580/",
+                "id": 580,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_fa4aGEh.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_iXDmp7P.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/466/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "{uploadedImages.map((image) => (",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:12:21.703371+03:00",
+        "created": "2024-06-24T03:12:21.703788+03:00",
+        "updated": "2024-06-24T03:12:21.703795+03:00",
+        "status": "DF",
+        "download_url": "0q0nG15jysSazNb4wD3I",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/2/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/465/",
+        "id": 465,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/25/",
+                "title": "kkk"
+            }
+        ],
+        "variants": [
+            {
+                "id": 206,
+                "option_values": [
+                    {
+                        "value": "jjjj",
+                        "option": 3
+                    }
+                ],
+                "image_mappings": [],
+                "product": 465,
+                "price": "999.00",
+                "quantity": 665,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/575/",
+                "id": 575,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_cscc7W3.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_vMCntn8.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/465/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/576/",
+                "id": 576,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_3EXRjFM.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_ueihV2b.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/465/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/577/",
+                "id": 577,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_th513ep.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_CxFAbLh.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/465/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "{uploadedImages.map((image) => (",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"\"</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span><span style=\"color: rgb(212, 212, 212);\">None</span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(86, 156, 214);\">em</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">uploadedImages</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">map</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> (</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">key</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">id</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">value</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(128, 128, 128);\">&lt;</span><span style=\"color: rgb(86, 156, 214);\">img</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">src</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">url</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">alt</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(206, 145, 120);\">\"preview\"</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">style</span><span style=\"color: rgb(212, 212, 212);\">=</span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(212, 212, 212);\">{ </span><span style=\"color: rgb(156, 220, 254);\">width:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">height:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">50</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">marginRight:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(181, 206, 168);\">10</span><span style=\"color: rgb(212, 212, 212);\"> }</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(128, 128, 128);\">/&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">          Image </span><span style=\"color: rgb(86, 156, 214);\">{</span><span style=\"color: rgb(156, 220, 254);\">image</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\"> + </span><span style=\"color: rgb(181, 206, 168);\">1</span><span style=\"color: rgb(86, 156, 214);\">}</span></p><p><span style=\"color: rgb(212, 212, 212);\">        </span><span style=\"color: rgb(128, 128, 128);\">&lt;/</span><span style=\"color: rgb(78, 201, 176);\">MenuItem</span><span style=\"color: rgb(128, 128, 128);\">&gt;</span></p><p><span style=\"color: rgb(212, 212, 212);\">      ))</span><span style=\"color: rgb(86, 156, 214);\">}</span></p>",
+        "price": "672.00",
+        "is_active": false,
+        "publish": "2024-06-24T03:10:56.620268+03:00",
+        "created": "2024-06-24T03:10:56.622142+03:00",
+        "updated": "2024-06-24T03:10:56.622161+03:00",
+        "status": "DF",
+        "download_url": "G4zhbrl779PKHNr273yf",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/2/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/463/",
+        "id": 463,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/80/",
+                "title": "nnn"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/569/",
+                "id": 569,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_G8WSlU3.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_MnSnKaO.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/463/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/570/",
+                "id": 570,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_K3HIERj.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_jZzmoAx.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/463/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/571/",
+                "id": 571,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_okObx6J.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_SoLTV3o.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/463/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 12,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test June 24",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(197, 134, 192);\">try</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">const</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\"> = </span><span style=\"color: rgb(86, 156, 214);\">new</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">FormData</span><span style=\"color: rgb(212, 212, 212);\">();</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(106, 153, 85);\">// Append images</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">uploaded_images</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`uploaded_images[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(220, 220, 170);\">setUploadedImages</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> [</span></p><p><span style=\"color: rgb(212, 212, 212);\"> ...</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\">,</span></p><p><span style=\"color: rgb(212, 212, 212);\"> { </span><span style=\"color: rgb(156, 220, 254);\">file:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">preview:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">URL</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">createObjectURL</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">) }</span></p><p><span style=\"color: rgb(212, 212, 212);\"> ]);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> });</span></p><p><br></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">tags</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`tag_titles[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> });</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span></p>",
+        "price": "123.00",
+        "is_active": false,
+        "publish": "2024-06-24T02:27:52.291705+03:00",
+        "created": "2024-06-24T02:27:52.292560+03:00",
+        "updated": "2024-06-24T02:27:52.292569+03:00",
+        "status": "DF",
+        "download_url": "HFemkkKbqOWlvHEIG94G",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/462/",
+        "id": 462,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/80/",
+                "title": "nnn"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/566/",
+                "id": 566,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_Oxo2GQq.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_I5sUOmf.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/462/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/567/",
+                "id": 567,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_3hwKonh.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_CbSgYcT.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/462/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/568/",
+                "id": 568,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_WIEk4c9.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_dsUlyW4.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/462/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 12,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test ju",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(197, 134, 192);\">try</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">const</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\"> = </span><span style=\"color: rgb(86, 156, 214);\">new</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">FormData</span><span style=\"color: rgb(212, 212, 212);\">();</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(106, 153, 85);\">// Append images</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">uploaded_images</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`uploaded_images[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(220, 220, 170);\">setUploadedImages</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> [</span></p><p><span style=\"color: rgb(212, 212, 212);\"> ...</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\">,</span></p><p><span style=\"color: rgb(212, 212, 212);\"> { </span><span style=\"color: rgb(156, 220, 254);\">file:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">preview:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">URL</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">createObjectURL</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">) }</span></p><p><span style=\"color: rgb(212, 212, 212);\"> ]);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> });</span></p><p><br></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">tags</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`tag_titles[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\"> });</span></p><p><span style=\"color: rgb(212, 212, 212);\"> </span></p>",
+        "price": "123.00",
+        "is_active": false,
+        "publish": "2024-06-24T02:20:05.033519+03:00",
+        "created": "2024-06-24T02:20:05.036218+03:00",
+        "updated": "2024-06-24T02:20:05.036231+03:00",
+        "status": "DF",
+        "download_url": "cctZzTdfN81h9NQlY11B",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/459/",
+        "id": 459,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/80/",
+                "title": "nnn"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/557/",
+                "id": 557,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_68EBuhk.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_XKMyotA.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/459/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/558/",
+                "id": 558,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_iIe3fF2.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_nga2q6X.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/459/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/559/",
+                "id": 559,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_wopeFiF.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_S8a9e1u.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/459/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 12,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test ju",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(197, 134, 192);\">try</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(86, 156, 214);\">const</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\"> = </span><span style=\"color: rgb(86, 156, 214);\">new</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">FormData</span><span style=\"color: rgb(212, 212, 212);\">();</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(106, 153, 85);\">// Append images</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">uploaded_images</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`uploaded_images[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(220, 220, 170);\">setUploadedImages</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> [</span></p><p><span style=\"color: rgb(212, 212, 212);\">              ...</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\">,</span></p><p><span style=\"color: rgb(212, 212, 212);\">              { </span><span style=\"color: rgb(156, 220, 254);\">file:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">preview:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">URL</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">createObjectURL</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">) }</span></p><p><span style=\"color: rgb(212, 212, 212);\">            ]);</span></p><p><span style=\"color: rgb(212, 212, 212);\">          });</span></p><p><br></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">tags</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`tag_titles[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\">          });</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span></p>",
+        "price": "123.00",
+        "is_active": false,
+        "publish": "2024-06-24T02:14:44.403333+03:00",
+        "created": "2024-06-24T02:14:44.403801+03:00",
+        "updated": "2024-06-24T02:14:44.403816+03:00",
+        "status": "DF",
+        "download_url": "upQEcXKdXht8XROq1Alr",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/458/",
+        "id": 458,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/80/",
+                "title": "nnn"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/554/",
+                "id": 554,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_GFAi2es.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_Z3ydPJS.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/458/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/555/",
+                "id": 555,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-blue_MaS4TOp.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-blue_w7Q1xhQ.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/458/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/556/",
+                "id": 556,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-white_wCB0ILY.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-white_VqZ2FRt.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/458/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 12,
+        "toprated": false,
+        "bestseller": false,
+        "title": "test ju",
+        "slug": "",
+        "file": null,
+        "description": "<p><span style=\"color: rgb(197, 134, 192);\">try</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(86, 156, 214);\">const</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\"> = </span><span style=\"color: rgb(86, 156, 214);\">new</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">FormData</span><span style=\"color: rgb(212, 212, 212);\">();</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(106, 153, 85);\">// Append images</span></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">uploaded_images</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`uploaded_images[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(220, 220, 170);\">setUploadedImages</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> [</span></p><p><span style=\"color: rgb(212, 212, 212);\">              ...</span><span style=\"color: rgb(156, 220, 254);\">prevImages</span><span style=\"color: rgb(212, 212, 212);\">,</span></p><p><span style=\"color: rgb(212, 212, 212);\">              { </span><span style=\"color: rgb(156, 220, 254);\">file:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">preview:</span><span style=\"color: rgb(212, 212, 212);\"> </span><span style=\"color: rgb(78, 201, 176);\">URL</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">createObjectURL</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(156, 220, 254);\">file</span><span style=\"color: rgb(212, 212, 212);\">) }</span></p><p><span style=\"color: rgb(212, 212, 212);\">            ]);</span></p><p><span style=\"color: rgb(212, 212, 212);\">          });</span></p><p><br></p><p><span style=\"color: rgb(212, 212, 212);\">          </span><span style=\"color: rgb(156, 220, 254);\">values</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(156, 220, 254);\">tags</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">forEach</span><span style=\"color: rgb(212, 212, 212);\">((</span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(212, 212, 212);\">) </span><span style=\"color: rgb(86, 156, 214);\">=&gt;</span><span style=\"color: rgb(212, 212, 212);\"> {</span></p><p><span style=\"color: rgb(212, 212, 212);\">            </span><span style=\"color: rgb(79, 193, 255);\">formData</span><span style=\"color: rgb(212, 212, 212);\">.</span><span style=\"color: rgb(220, 220, 170);\">append</span><span style=\"color: rgb(212, 212, 212);\">(</span><span style=\"color: rgb(206, 145, 120);\">`tag_titles[</span><span style=\"color: rgb(86, 156, 214);\">${</span><span style=\"color: rgb(156, 220, 254);\">index</span><span style=\"color: rgb(86, 156, 214);\">}</span><span style=\"color: rgb(206, 145, 120);\">]`</span><span style=\"color: rgb(212, 212, 212);\">, </span><span style=\"color: rgb(156, 220, 254);\">tag</span><span style=\"color: rgb(212, 212, 212);\">);</span></p><p><span style=\"color: rgb(212, 212, 212);\">          });</span></p><p><span style=\"color: rgb(212, 212, 212);\">      </span></p>",
+        "price": "123.00",
+        "is_active": false,
+        "publish": "2024-06-24T02:14:22.361457+03:00",
+        "created": "2024-06-24T02:14:22.363340+03:00",
+        "updated": "2024-06-24T02:14:22.363353+03:00",
+        "status": "DF",
+        "download_url": "5q2c6bHV6VqSKcnZeeDB",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/457/",
+        "id": 457,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/77/",
+                "title": "tag me"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/tags/79/",
+                "title": "tag them"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/tags/78/",
+                "title": "tag you"
+            }
+        ],
+        "variants": [
+            {
+                "id": 201,
+                "option_values": [
+                    {
+                        "value": "ok",
+                        "option": 25
+                    }
+                ],
+                "image_mappings": [],
+                "product": 457,
+                "price": "12.00",
+                "quantity": 233,
+                "is_active": false
+            },
+            {
+                "id": 202,
+                "option_values": [
+                    {
+                        "value": "uu",
+                        "option": 17
+                    }
+                ],
+                "image_mappings": [],
+                "product": 457,
+                "price": "98.00",
+                "quantity": 419,
+                "is_active": false
+            },
+            {
+                "id": 203,
+                "option_values": [
+                    {
+                        "value": "k",
+                        "option": 25
+                    }
+                ],
+                "image_mappings": [],
+                "product": 457,
+                "price": "34.00",
+                "quantity": 253,
+                "is_active": false
+            },
+            {
+                "id": 204,
+                "option_values": [
+                    {
+                        "value": "oh",
+                        "option": 25
+                    }
+                ],
+                "image_mappings": [],
+                "product": 457,
+                "price": "56.00",
+                "quantity": 432,
+                "is_active": false
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/550/",
+                "id": 550,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer_Op1EMXK.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer_IfZ6Ivm.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/457/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/551/",
+                "id": 551,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-9_vygJs0r.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-9_1frXw0E.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/457/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/552/",
+                "id": 552,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-3_aTnDrkY.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-3_gB6iVym.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/457/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/553/",
+                "id": 553,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-7_fPCjkU7.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-7_uUcdsli.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/457/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 46,
+        "toprated": false,
+        "bestseller": false,
+        "title": "June 22 new product tests",
+        "slug": "",
+        "file": null,
+        "description": "<p>&nbsp;&nbsp;at async Span.traceAsyncFn <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/trace/trace.js:154:20<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async HotReloaderWebpack.start <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/server/dev/hot-reloader-webpack.js:607:28<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async startWatcher <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:156:5<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async setupDevBundler <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:775:20<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async Span.traceAsyncFn <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/trace/trace.js:154:20<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async initialize <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/server/lib/router-server.js:78:30<span style=\"color: rgb(111, 111, 111);\">)</span></p><p>&nbsp;&nbsp;at async Server.&lt;anonymous&gt; <span style=\"color: rgb(111, 111, 111);\">(/Users/patrick/svgcraft/svgcraft/</span>node_modules/next/dist/server/lib/start-server.js:249:36<span style=\"color: rgb(111, 111, 111);\">)</span> {</p><p>&nbsp;[cause]: Error: getaddrinfo ENOTFOUND registry.npmjs.org</p><p><span style=\"color: rgb(47, 255, 18);\">&nbsp;</span>&nbsp;&nbsp;at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)<span style=\"color: rgb(47, 255, 18);\"> {</span></p><p>&nbsp;&nbsp;errno: <span style=\"color: rgb(159, 160, 28);\">-3008</span>,</p><p>&nbsp;&nbsp;code: <span style=\"color: rgb(47, 180, 29);\">'ENOTFOUND'</span>,</p><p>&nbsp;&nbsp;syscall: <span style=\"color: rgb(47, 180, 29);\">'getaddrinfo'</span>,</p><p><span style=\"color: rgb(47, 255, 18);\">&nbsp;&nbsp;hostname: </span>'registry.npmjs.org'</p><p>&nbsp;}</p><p>}</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Ready in 3.5s</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling / ...</p><p>(node:812) Warning: To load an ES module, set \"type\": \"module\" in the package.json or use the .mjs extension.</p><p>(Use `node --trace-warnings ...` to show where the warning was created)</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled / in 18.4s (11254 modules)</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling /_not-found ...</p><p>&nbsp;GET / <span style=\"color: rgb(47, 180, 29);\">200</span> in 21093ms</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled /_not-found in 12.7s (11237 modules)</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 11142ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p><p>&nbsp;GET / <span style=\"color: rgb(47, 180, 29);\">200</span> in 300ms</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 58ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling /product/default ...</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled /product/default in 13.2s (14022 modules)</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling /_not-found ...</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled /_not-found in 5.4s (14025 modules)</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 5882ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling /admin ...</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled /admin in 13.8s (14780 modules)</p><p>&nbsp;<span style=\"color: rgb(159, 160, 28);\">⚠</span> Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload</p><p>&nbsp;GET /admin <span style=\"color: rgb(47, 180, 29);\">200</span> in 13852ms</p><p>{}</p><p>&nbsp;GET / <span style=\"color: rgb(47, 180, 29);\">200</span> in 878ms</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 143ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p><p>&nbsp;<span style=\"color: rgb(192, 192, 192);\">○</span> Compiling /dashboard/product/create ...</p><p>&nbsp;<span style=\"color: rgb(47, 180, 29);\">✓</span> Compiled /dashboard/product/create in 8.6s (15576 modules)</p><p>&nbsp;<span style=\"color: rgb(159, 160, 28);\">⚠</span> Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload</p><p>&nbsp;GET /dashboard/product/create <span style=\"color: rgb(47, 180, 29);\">200</span> in 8671ms</p><p>{}</p><p>&nbsp;GET / <span style=\"color: rgb(47, 180, 29);\">200</span> in 247ms</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 123ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p><p>{}</p><p>&nbsp;GET /dashboard/product/create <span style=\"color: rgb(47, 180, 29);\">200</span> in 139ms</p><p>&nbsp;GET /placeholder-image.png <span style=\"color: rgb(159, 160, 28);\">404</span> in 29ms</p><p>&nbsp;<span style=\"color: rgb(180, 36, 25);\">⨯</span> The requested resource isn't a valid image for /placeholder-image.png received text/html; charset=utf-8</p>",
+        "price": "6.00",
+        "is_active": false,
+        "publish": "2024-06-22T11:23:42.850065+03:00",
+        "created": "2024-06-22T11:23:42.850621+03:00",
+        "updated": "2024-06-22T11:23:42.850629+03:00",
+        "status": "DF",
+        "download_url": "9NW7DTq8VBNR5wgo16lh",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/456/",
+        "id": 456,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/76/",
+                "title": "Ergonomic Adjustable Laptop Stand"
+            }
+        ],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/546/",
+                "id": 546,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerrrr.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerrrr.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/456/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/547/",
+                "id": 547,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerrr.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerrr.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/456/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/548/",
+                "id": 548,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerr.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerr.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/456/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/549/",
+                "id": 549,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizerc.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizerc.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/456/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 10,
+        "toprated": false,
+        "bestseller": false,
+        "title": "Ergonomic Adjustable Laptop Stand For Desks & Home Office",
+        "slug": "",
+        "file": null,
+        "description": "<h3><strong>About this item</strong></h3><ul><li>6-level adjustable laptop stand for desk</li><li class=\"ql-align-justify\">Stylish aluminum construction</li><li class=\"ql-align-justify\">Anti-slip padding on the stand</li><li class=\"ql-align-justify\">Handles laptops (7-15 inch), Macbooks, tablets, mobiles</li><li class=\"ql-align-justify\">Foldable laptop stand for easy storage</li><li class=\"ql-align-justify\">Open-cut design for proper ventilation</li><li class=\"ql-align-justify\">Lightweight</li></ul><p class=\"ql-align-justify\"><br></p><h3><strong>Item description from the seller</strong></h3><p><span style=\"color: rgb(33, 37, 41);\">Reduce back and eye strain with this </span><span style=\"color: rgb(17, 24, 39);\">ergonomic adjustable laptop stand </span><span style=\"color: rgb(33, 37, 41);\">that offers a sturdy triangular configuration for handling almost every laptop. The stand comes with incline increments and anti-slip surface pads along with a ventilation design so you can keep your devices on the stand for as long as you want.</span></p><p class=\"ql-align-justify\"><span style=\"color: rgb(33, 37, 41);\">Work on your presentations or binge-watch your favorite TV shows, conduct lengthy zoom sessions or FaceTime your loved ones for hours - this home and office laptop stand will come in handy in all situations.&nbsp;</span></p><p class=\"ql-align-justify\"><strong style=\"color: rgb(33, 37, 41);\">What you’ll get:</strong></p><p class=\"ql-align-justify\"><br></p><ul><li class=\"ql-align-justify\"><strong>Reduce pains</strong>: Extended use of laptops and electronic devices have resulted in increasing cases of neck, eye, back pain, and poor posture. This ergonomic laptop stand will keep your vertebrae straight and prevent back, neck and eye strain as well.</li><li class=\"ql-align-justify\"><strong>Sturdy aluminum built</strong>: Made of lightweight yet strong, sturdy aluminum, it is there to stay with you for long.</li><li class=\"ql-align-justify\"><strong>Stable triangular design</strong>: The linkages of the adjustable laptop stand are arranged in a triangular configuration to provide maximum stability.</li><li class=\"ql-align-justify\"><strong>6-incline points</strong>: Change the height of your laptop from 100-160mm according to your need. It is an ideal stand for desk and for bed.&nbsp;</li><li class=\"ql-align-justify\"><strong>Anti-slip padding:</strong> The stand comes with full anti-skid padding on the linkages along with 2 holding mounts, so it’s never displaced.</li><li class=\"ql-align-justify\"><strong>Design for ventilation:</strong> Comes with an open design that allows ventilation for your device. Your laptop or tablet will never get overheated. Enjoy max speed &amp; performance.</li><li class=\"ql-align-justify\"><strong>Folding design for easy storage:</strong> The compact design of the ergonomic laptop stand allows it to be highly portable. Carry it anywhere with you; to the office, while driving, on international trips, etc.</li><li class=\"ql-align-justify\"><strong>Compatible with all devices:</strong> Works with laptops (7-15 inch), tablets, mobiles, MacBooks.</li></ul><p class=\"ql-align-justify\"><span style=\"color: rgba(0, 0, 0, 0);\"><img src=\"https://cdn.inspireuplift.com/gif.gif\" alt=\"Ergonomic Adjustable Laptop Stand For Desks &amp; Home Office\" height=\"338\" width=\"505\"></span></p><p><br></p>",
+        "price": "19.00",
+        "is_active": false,
+        "publish": "2024-06-22T00:07:31.461944+03:00",
+        "created": "2024-06-22T00:07:31.462417+03:00",
+        "updated": "2024-06-22T00:07:31.462426+03:00",
+        "status": "DF",
+        "download_url": "xm1XNYa89eobfloYWmRc",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/2/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/203/",
+        "id": 203,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/44/",
+                "title": "ggg"
+            }
+        ],
+        "variants": [
+            {
+                "id": 41,
+                "option_values": [
+                    {
+                        "value": "hhhfff",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [],
+                "product": 203,
+                "price": "89.00",
+                "quantity": 6556,
+                "is_active": true
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/206/",
+                "id": 206,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/Explore_By-Sleep.png_ltFJJJq.webp",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Explore_By-Sleep.png_PgHeRl7.webp",
+                "product": "http://127.0.0.1:8000/api/products/203/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 6556,
+        "toprated": false,
+        "bestseller": false,
+        "title": "err",
+        "slug": "",
+        "file": null,
+        "description": "<p>rrr</p>",
+        "price": "122.00",
+        "is_active": false,
+        "publish": "2024-06-13T00:22:07.980687+03:00",
+        "created": "2024-06-13T00:22:07.981171+03:00",
+        "updated": "2024-06-13T00:22:07.981180+03:00",
+        "status": "DF",
+        "download_url": "dC6Qc7XibcjGFRQHE9JB",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/3/",
+        "id": 3,
+        "tags": [],
+        "variants": [],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/6/",
+                "id": 6,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/Explore_By-Mental_Health.png.webp",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Explore_By-Mental_Health.png.webp",
+                "product": "http://127.0.0.1:8000/api/products/3/"
+            }
+        ],
+        "delivery_zone": null,
+        "type": "PHY",
+        "quantity": 0,
+        "toprated": false,
+        "bestseller": false,
+        "title": "tests",
+        "slug": "",
+        "file": null,
+        "description": "<p>ghghg</p>",
+        "price": "760.00",
+        "is_active": false,
+        "publish": "2024-06-11T02:08:49.163865+03:00",
+        "created": "2024-06-11T02:08:49.169123+03:00",
+        "updated": "2024-06-11T16:16:14.625490+03:00",
+        "status": "DF",
+        "download_url": "rnVVUFMCcRhWQR8Qu7wa",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/4/"
+    },
+    {
+        "url": "http://127.0.0.1:8000/api/products/2/",
+        "id": 2,
+        "tags": [
+            {
+                "url": "http://127.0.0.1:8000/api/tags/1/",
+                "title": "tag 1"
+            }
+        ],
+        "variants": [
+            {
+                "id": 2,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 2,
+                        "image": 3
+                    }
+                ],
+                "product": 2,
+                "price": "15.00",
+                "quantity": 0,
+                "is_active": true
+            },
+            {
+                "id": 200,
+                "option_values": [
+                    {
+                        "value": "blue",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [],
+                "product": 2,
+                "price": "16.00",
+                "quantity": 0,
+                "is_active": true
+            },
+            {
+                "id": 3,
+                "option_values": [
+                    {
+                        "value": "yellow",
+                        "option": 1
+                    }
+                ],
+                "image_mappings": [
+                    {
+                        "variant": 3,
+                        "image": 5
+                    }
+                ],
+                "product": 2,
+                "price": "16.00",
+                "quantity": 0,
+                "is_active": true
+            }
+        ],
+        "images": [
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/3/",
+                "id": 3,
+                "order": 0,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-2.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-2.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/4/",
+                "id": 4,
+                "order": 1,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-3.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-3.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/5/",
+                "id": 5,
+                "order": 2,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-5.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-5.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/543/",
+                "id": 543,
+                "order": 3,
+                "image": "http://127.0.0.1:8000/media/product-images/resizer-black_aE8EYpp.jpeg",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/resizer-black_DoOjuIM.jpeg",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/544/",
+                "id": 544,
+                "order": 4,
+                "image": "http://127.0.0.1:8000/media/product-images/Screenshot_2024-06-19_at_22.25.47.png",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Screenshot_2024-06-19_at_22.25.47.png",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            },
+            {
+                "url": "http://127.0.0.1:8000/api/product-images/545/",
+                "id": 545,
+                "order": 5,
+                "image": "http://127.0.0.1:8000/media/product-images/Screenshot_2024-06-19_at_23.16.19.png",
+                "thumbnail": "http://127.0.0.1:8000/media/product-thumbnails/Screenshot_2024-06-19_at_23.16.19.png",
+                "product": "http://127.0.0.1:8000/api/products/2/"
+            }
+        ],
+        "delivery_zone": {
+            "url": "http://127.0.0.1:8000/api/delivery-zones/1/",
+            "countries": [
+                {
+                    "url": "http://127.0.0.1:8000/api/countries/1/",
+                    "name": "Kenya"
+                },
+                {
+                    "url": "http://127.0.0.1:8000/api/countries/2/",
+                    "name": "Uganda"
+                }
+            ],
+            "name": "Deliveryzone 1",
+            "shop": "http://127.0.0.1:8000/api/shops/1/"
+        },
+        "type": "PHY",
+        "quantity": 1,
+        "toprated": false,
+        "bestseller": false,
+        "title": "Product test 1",
+        "slug": "product-test-1",
+        "file": "http://127.0.0.1:8000/media/files/resizer-1.jpeg",
+        "description": "<p>product test 1 description</p>\r\n\r\n<p>You surely know how crucial it is to always have your laptop, mouse, and charger with you if you&rsquo;re a digital worker.</p>\r\n\r\n<p>But carrying a laptop along with all its appliances is challenging. That&rsquo;s why you often miss out on any laptop&rsquo;s appliance at home or at work, which can decrease your efficiency.</p>\r\n\r\n<p>So, put an end to this problem and work relaxedly with this&nbsp;<strong>Multifunctional Laptop Bag.</strong></p>\r\n\r\n<p>It&rsquo;s handy to bring anywhere and has built-in a variety of accessories that make it simple to set up your entire workstation wherever you choose, this laptop bag is perfect for both remote and office work.</p>\r\n\r\n<p><strong>What you&rsquo;ll get</strong>:</p>\r\n\r\n<ul>\r\n\t<li><strong>Fast laptop portability:&nbsp;</strong>This bag is handy to bring your laptop wherever you go. Put your system in it and work anywhere you like without hassle.&nbsp;</li>\r\n\t<li><strong>100% laptop protection:&nbsp;</strong>Refined leather resists scratches and is waterproof. Don&rsquo;t be stressed about your laptop in case it&rsquo;s raining and you&rsquo;re outside or on a bike.</li>\r\n\t<li><strong>Ergonomic kickstand:&nbsp;</strong>This bag is equipped with a well-designed kickstand. It sets your laptop in the perfect direction to provide a feasible working angle. In addition, if you use your system for long hours, it protects you from neck muscles soreness and backache.</li>\r\n\t<li><strong>Multiple laptop appliances:&nbsp;</strong>Mouse pad and pen slot are built in this laptop bag to make you pleasantly use the system wherever you desire. Mouse and charger pouch are also included in the package to help you carry laptop essentials anywhere.</li>\r\n\t<li><strong>Wide applications:&nbsp;</strong>This laptop bag is ideal for Apple Macbook, Dell, HP, and more. Simply check your laptop size and order the bag accordingly.<br />\r\n\t<img alt=\"multifunctionallatopbag4.png\" src=\"https://cdn.inspireuplift.com/uploads/images/seller_products/1648461405_multifunctionallatopbag4.png\" style=\"height:500px; width:500px\" /></li>\r\n</ul>",
+        "price": "12.00",
+        "is_active": true,
+        "publish": "2024-06-11T01:15:36.183826+03:00",
+        "created": "2024-06-11T01:15:36.259650+03:00",
+        "updated": "2024-06-24T03:37:00.969326+03:00",
+        "status": "PB",
+        "download_url": "fePfIVt37NSE78ZtYL9w",
+        "shop": "http://127.0.0.1:8000/api/shops/1/",
+        "category": "http://127.0.0.1:8000/api/categories/1/"
+    }
+]
